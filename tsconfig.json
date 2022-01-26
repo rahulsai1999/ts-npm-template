@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "allowJs": false,
+    "declaration": true,
+    "removeComments": true,
+    "esModuleInterop": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "resolveJsonModule": true,
+    "baseUrl": "./",
+    "target": "es5",
+    "outDir": "dist",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "types": ["node", "jest"],
+    "typeRoots": ["./node_modules/@types/"]
+  },
+  "include": ["./src/*.ts"]
+}

@@ -1,0 +1,42 @@
+{
+  "name": "ts-npm-template",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": "<AUTHOR_NAME>",
+  "description": "Description of the package",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+<GITHUB_URL>.git"
+  },
+  "bugs": {
+    "url": "https://<GITHUB_URL>/issues"
+  },
+  "homepage": "https://<GITHUB_URL>/#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-typescript": "^7.16.7",
+    "@types/jest": "^27.4.0",
+    "@types/node": "^17.0.10",
+    "jest": "^27.4.7",
+    "rollup": "^2.66.0",
+    "rollup-plugin-node-polyfills": "^0.2.1",
+    "rollup-plugin-typescript2": "^0.31.1",
+    "ts-jest": "^27.1.3",
+    "typescript": "^4.5.5"
+  },
+  "scripts": {
+    "test": "jest --config jestconfig.json --coverage",
+    "build": "yarn rollup --config"
+  },
+  "keywords": [
+    "keywords",
+    "related",
+    "to",
+    "the",
+    "package"
+  ]
+}

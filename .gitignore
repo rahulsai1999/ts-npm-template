@@ -1,0 +1,7 @@
+# folders
+dist
+node_modules
+coverage
+
+# files
+yarn-error.log
